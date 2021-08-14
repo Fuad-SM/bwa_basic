@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
           Padding(
               padding: EdgeInsets.symmetric(horizontal: 30),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -33,6 +34,15 @@ class HomePage extends StatelessWidget {
                           fontSize: 12,
                         ),
                       )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.favorite,
+                        color: Color(0xffFFB800),
+                      ),
+                      Text('4.2')
                     ],
                   )
                 ],
