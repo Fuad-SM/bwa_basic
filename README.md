@@ -1,4 +1,4 @@
-# bwa_basic
+# basic
 
 A new Flutter project.
 
